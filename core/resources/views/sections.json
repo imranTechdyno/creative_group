@@ -1,0 +1,224 @@
+{
+  "banner": {
+    "no_selection": true,
+    "element": {
+      "image": "file",
+      "size": "1920x900"
+    }
+  },
+  "at_a_glance": {
+    "element": {
+      "title": "text",
+      "glance_number": "text",
+      "image": "file",
+      "size": "40x45"
+    }
+  },
+  "at_a_glance_content": {
+    "content": {
+      "title": "text"
+    }
+  },
+  "sister_concern": {
+    "element": {
+      "title": "text",
+      "short_description": "textarea",
+      "slug_title": "hidden",
+      "image": "file",
+      "size": "564x442",
+      "website_link": "text"
+    }
+  },
+  "sister_concern_content": {
+    "content": {
+      "title": "text"
+    }
+  },
+  "product": {
+    "element": {
+      "title": "text",
+      "short_description": "textarea_nic",
+      "description": "textarea_nic",
+      "slug_title": "hidden",
+      "image": "file",
+      "size": "564x442"
+    }
+  },
+  "product_content": {
+    "content": {
+      "top_title": "text"
+    }
+  },
+  "mission_vision": {
+    "content": {
+      "title1": "text",
+      "title2": "text",
+      "short_description1": "textarea",
+      "short_description2": "textarea",
+      "image": "file",
+      "size": "555x435"
+    }
+  },
+  "mission_vision_content": {
+    "content": {
+      "title": "text"
+    }
+  },
+  "about": {
+    "content": {
+      "title": "text",
+      "video_url": "text",
+      "short_description": "textarea_nic"
+    }
+  },
+  "service": {
+    "content": {
+      "title1": "text",
+      "title2": "text",
+      "short_description1": "textarea",
+      "short_description2": "textarea",
+      "image": "file",
+      "size": "555x435"
+    }
+  },
+  "achievment": {
+    "content": {
+      "title": "text",
+      "color_text": "text",
+      "sub_title": "text",
+      "description": "textarea",
+      "image": "file",
+      "size": "847x593"
+    }
+  },
+  "client": {
+    "element": {
+      "image": "file",
+      "size": "564x442"
+    }
+  },
+  "client_content": {
+    "content": {
+      "title": "text"
+    }
+  },
+  "news_and_events": {
+    "element": {
+      "title": "text",
+      "short_description": "textarea",
+      "date": "date",
+      "image": "file",
+      "size": "511x401",
+      "slug": "text"
+    }
+  },
+  "news_and_events_content": {
+    "content": {
+      "title": "text"
+    }
+  },
+  "contact": {
+    "element": {
+      "title": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+
+  "footer": {
+    "no_selection": true,
+    "content": {
+      "footer_logo": "file",
+      "size": "240x150",
+      "footer_short_description": "textarea"
+    }
+  },
+  "about_us_details": {
+    "content": {
+      "video_url": "text",
+      "description": "textarea_nic",
+      "image": "file",
+      "size": "585x472"
+    }
+  },
+  "about_us_details_element": {
+    "element": {
+      "image": "file",
+      "size": "600x600",
+      "image_title": "text",
+      "image_des": "text"
+    }
+  },
+  "mission_and_vission": {
+    "content": {
+      "vision_des": "textarea",
+      "mission_des": "textarea",
+      "image": "file",
+      "size": "600x600"
+    }
+  },
+  "our_approach": {
+    "element": {
+      "image": "file",
+      "size": "600x600",
+      "title": "text",
+      "description": "textarea"
+    }
+  },
+  "our_team_title": {
+    "content": {
+      "team_title": "text"
+    }
+  },
+  "our_team": {
+    "element": {
+      "image": "file",
+      "size": "600x600",
+      "image_title": "text",
+      "image_des": "text"
+    }
+  },
+  "all_product": {
+    "element": {
+      "single_title": "text",
+      "short_description": "textarea",
+      "image": "file",
+      "size": "564x442"
+    }
+  },
+  "all_sisterConcern": {
+    "element": {
+      "title": "text",
+      "sub_title": "text",
+      "color_text": "text",
+      "short_description": "textarea"
+    }
+  },
+  "corporate_client": {
+    "element": {
+      "image": "file",
+      "size": "564x442"
+    }
+  },
+  "career": {
+    "element": {
+      "image": "file",
+      "size": "564x442",
+      "slug":"text",
+      "dead_line":"text",
+      "job_title":"text",
+      "job_description":"textarea_nic",
+      "job_type":"text",
+      "salary":"text",
+      "job_location":"text"
+    }
+  },
+  "apply_job":{
+    "content":{
+      "name":"text",
+      "email":"text",
+      "phone":"text"
+    }
+  }
+}

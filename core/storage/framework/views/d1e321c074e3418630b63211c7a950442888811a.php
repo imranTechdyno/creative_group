@@ -1,0 +1,43 @@
+<?php
+    $newsEventsElement = element('news_and_events.element');
+    $newsEventsContent = content('news_and_events_content.content');
+?>
+
+<!-- News and event Section starts -->
+<section class="home-publications">
+    <div class="container">
+        <div class="news-head"><?php echo e(@$newsEventsContent->data->title); ?></div>
+
+        <div class="row">
+            <div class="news">
+                <?php $__currentLoopData = $newsEventsElement; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="box">
+                            <a href="<?php echo e(url('news-and-events-details',$item->data->slug)); ?>">
+                                <img src="<?php echo e(@$item->data->image); ?>" alt="Box Image" />
+                            </a>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <?php echo e(\Carbon\Carbon::parse(@$item->data->date)->format('d F Y')); ?>
+
+                            <a href="<?php echo e(url('news-and-events-details',$item->data->slug)); ?>"><h4><?php echo e(@$item->data->title); ?></h4></a>
+                            <p><?php echo e(strip_tags(Str::limit(@$item->data->short_description, 200, '...'))); ?></p>
+                            <br />
+                            
+                        </div>
+                    </div>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+            </div>
+        </div>
+    </div>
+
+
+    <center>
+        <a href="<?php echo e(url('all-news-and-events')); ?>">
+            <button class="btn btn-primary sis">View More</button>
+        </a>
+    </center>
+    </div>
+</section>
+<!-- News and event Section ends -->
+<?php /**PATH C:\laragon\www\New Project\core\resources\views/frontend/sections/news_and_events.blade.php ENDPATH**/ ?>

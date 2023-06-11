@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\tdbdltd\core\resources\views/frontend/sections/service.blade.php ENDPATH**/ ?>
